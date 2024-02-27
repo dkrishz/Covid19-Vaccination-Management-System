@@ -1,0 +1,11 @@
+.login_oueter {
+    width: 360px;
+    max-width: 100%;
+}
+.logo_outer{
+    text-align: right;
+}
+.logo_outer img{
+    width:120px;
+    margin-bottom: 200px;
+}
