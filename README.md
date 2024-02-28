@@ -1,4 +1,4 @@
-This project primarily revolves around the pandemic scenario, with a strong focus on vaccination. It allows users to book a slot and receive vaccination at their doorstep. This project is developed using PHP and MySQLand runs on the XAMPP.
+This project primarily revolves around the pandemic scenario, with a strong focus on vaccination. It allows users to book a slot and receive vaccination at their doorstep. This project is developed using PHP and MySQL and runs on the XAMPP.
 Home Page
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 ![1](https://github.com/dkrishz/Covid19-Vaccination-Management-System/assets/161418129/29b86845-415b-493f-ad82-f35266585f07)
