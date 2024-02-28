@@ -1,0 +1,1 @@
+This project primarily revolves around the pandemic scenario, with a strong focus on vaccination. It allows users to book a slot and receive vaccination at their doorstep. This project is developed using PHP and MySQLand runs on the XAMPP.
