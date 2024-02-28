@@ -52,7 +52,7 @@ move_uploaded_file($_FILES["report"]["tmp_name"],"reportfiles/".$newreportfile);
 $query=mysqli_query($con,"insert into tblreporttracking(OrderNumber,Status,Remark,RemarkBy) values('$orderid','$status','$remark','$rby')");
 $query2=mysqli_query($con,"update tblvacrecords set ReportStatus='$status',ActionBy='$actionby',FinalReport='$newreportfile',ReportUploadTime='$uploadtime' where OrderNumber='$orderid'");
 echo '<script>alert("Status updated successfully")</script>';
-echo "<script>window.location.href='assigned-vaccine2.php'</script>";
+echo "<script>window.location.href='phel-vaccine-status.php'</script>";
 }
 
 // For other status
@@ -60,7 +60,7 @@ else:
 $query=mysqli_query($con,"insert into tblreporttracking(OrderNumber,Status,Remark,RemarkBy) values('$orderid','$status','$remark','$rby')");
 $query2=mysqli_query($con,"update tblvacrecords set ReportStatus='$status',ActionBy='$actionby' where OrderNumber='$orderid'");
 echo '<script>alert("Status updated successfully")</script>';
-echo "<script>window.location.href='assigned-vaccine2.php'</script>";
+echo "<script>window.location.href='phel-vaccine-status.php'</script>";
 endif;  
 
     }
